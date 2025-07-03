@@ -74,7 +74,7 @@ cost_summary['cost_growth'] = cost_summary['pred_cost'].pct_change()
 merged.to_csv("C:/Users/jenny/babohun/scenario1_recommendations.csv", index=False)
 cost_summary.to_csv("C:/Users/jenny/babohun/scenario1_cost_summary.csv", index=False)
 
-print("=== Recommendations (First 5 rows) ===")
+print("=== Recommendations ===")
 print(merged.head())
 print("\n=== Cost Summary ===")
 print(cost_summary)
